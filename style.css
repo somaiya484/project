@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maincontent{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+  rgba(4, 9, 30, 0.7)),
+   url(image/main.jpg);
+   background-position: center;
+   background-size: cover;
+  
+}
+ .maincontent b{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c4c4c4;
+  text-transform: capitalize;
+  margin-left: 30px;
+
+}
+
+
+.menubar{
+  margin-left: 1350px;
+}
+.menubar ul{
+  
+}
+.menubar ul li{
+  list-style: none;
+}
+.menubar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  float: left;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.menubar ul li a:hover{
+  background:#3c3349 ;
+  width: 70px;
+  border-radius: 5px;
+  color: bisque;
+
+}
+.icons{
+  margin-left: 1600px;
+}
+.icons ul li {
+  font-size: 15px;
+  list-style: none;
+}
+.icons ul li i{
+  margin-top: 30px;
+  color: aliceblue;
+
+}
+.text h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family:arial ;
+  color: #c4c4c4;
+  margin-top: 300px;
+}
+.text p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family:arial ;
+  color: #d6d5d4;
+}
+.button button{
+  padding: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  width: 200px;
+  background:#e36b43 ;
+  border: 1px solid #e36b43;
+  color: #ffffff;
+  margin-left: 850px;
+  margin-top: 50px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 59px 11px #4f504f ;
+}
+.button button:hover{
+  background: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  color: #3c3349;
+  transform: scale(1.1);
+ 
+}
+.button button:hover{
+  
+  transition: 0.1s;
+ 
+}
